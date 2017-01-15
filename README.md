@@ -271,25 +271,3 @@ tests when you push to GitHub.
 
 You will need to enable the integration between Travis and GitHub. See the
 [Travis website][travis-docs] for instructions on how to do this.
-
-
-## Contact
-
-For more information on AngularJS please check out [angularjs.org][angularjs].
-
-
-[angularjs]: https://angularjs.org/
-[bower]: http://bower.io/
-[git]: https://git-scm.com/
-[http-server]: https://github.com/indexzero/http-server
-[jasmine]: https://jasmine.github.io/
-[jdk]: https://wikipedia.org/wiki/Java_Development_Kit
-[jdk-download]: http://www.oracle.com/technetwork/java/javase/downloads
-[karma]: https://karma-runner.github.io/
-[local-app-url]: http://localhost:8000/index.html
-[node]: https://nodejs.org/
-[npm]: https://www.npmjs.org/
-[protractor]: http://www.protractortest.org/
-[selenium]: http://docs.seleniumhq.org/
-[travis]: https://travis-ci.org/
-[travis-docs]: https://docs.travis-ci.com/user/getting-started

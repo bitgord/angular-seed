@@ -1,5 +1,18 @@
-<p>This is the partial for view 2.</p>
-<p>
-  Showing of 'interpolate' filter:
-  {{ 'Current version is v%VERSION%.' | interpolate }}
-</p>
+<!-- Intro -->
+	<body>
+		<section id="intro" class="main style1 dark fullscreen">
+			<div class="row">
+                <div class="span3">
+	                <h2>What is your wealth?</h2>
+	                <div>Example price: {{btcPrice}}</div>
+                </div>
+                <center><input type="text" ng-model="UserWealth" id="UserWealth" style="width:50%" placeholder="Enter Your Wealth"></center>
+                <p>Your wealth is: {{ UserWealth }}</p>
+				<br>
+				<center><button class="work orange" onclick ="Calculate()">Calculate</button></center>
+				<br />
+				<center><p style="color:black">Your BTI score is: <span id="BTCAmount"></span></p></center>
+                </div>
+            </div>
+		</section>
+	</body>
